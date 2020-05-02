@@ -1,0 +1,135 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 375px) {
+    /* Styles */
+    #titleBar {
+        opacity: 1;
+    }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+  #title {
+    margin-bottom: 3rem;
+  }
+
+  #titleText {
+    padding-left: 0;
+  }
+
+  #titleBar {
+    background-color: #50c9ce;
+    width: 0.5rem;
+    height: 28rem;
+    margin-right: 1rem;
+    margin-left: 3rem;
+  }
+
+  #checkingBtn{
+      margin-top: 2rem;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+  #titleContainer{
+      margin-top: 8rem;
+      margin-bottom: 6rem;
+  }
+
+  #titleBar {
+    background-color: #50c9ce;
+    width: 0.5rem;
+    height: 28rem;
+    margin-right: 1rem;
+    margin-left: 3rem;
+}
+}
+
+
+
+.bigtext {
+    font-size: 8rem;
+    border-bottom: 0;
+}
+
+
+.jumbotron {
+  margin-bottom: 0 !important;
+}
+
+#checkingBtn{
+    margin-bottom: 7rem;
+    color: #50c9ce !important;
+    border: 0px solid #50c9ce;
+    border-radius: 0%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    background-color: #1f2123;
+}
+
+#landingSection {
+  background-color: #1f2123;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar {
+  background-color: rgb(22, 27, 34) !important;
+  border-bottom: 0.2rem solid #50c9ce;
+  color: #ffffff;
+}
+
+#aboutSection{
+    background-color: #ffffff;
+}
+
+#contactSection{
+    background-color: #1f2123;
+}
+
+#footer{
+    background-color: rgb(22, 27, 34);
+    padding-bottom: 1rem;
+}
+
+#emailBtn{
+    margin-bottom: 7rem;
+    color: #50c9ce !important;
+    border: 1px solid #50c9ce;
+    border-radius: 0%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    background-color: #1f2123;
+}
+
+#emailText{
+  margin-bottom: 0;
+}
+
+#copyright{
+    margin-bottom: 0;
+}
+
+.pink-text {
+  color: #ff206e;
+}
+
+.blue-text {
+  color: #50c9ce;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.dark-grey-text {
+   color: rgb(74, 76, 78);
+}
