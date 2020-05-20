@@ -109,6 +109,11 @@ p{
   border-radius: 0!important;
 }
 
+.projectImage{
+  width: 766px !important;
+  height: 455px !important;
+}
+
 #checkingBtn {
   margin-bottom: 7rem;
   color: #50c9ce !important;
@@ -209,6 +214,10 @@ p{
 
 .grey-text {
   color: rgb(90, 92, 94);
+}
+
+.light-grey-text{
+  color: rgb(144, 144, 145);
 }
 
 .animate-bounce {
