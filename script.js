@@ -1,5 +1,9 @@
 
+init();
 
+function init(){
+    console.log("Hello there wanderer!")
+}
 
 function mailMe(){
     window.location.href = "mailto:albert.arrieta12@gmail.com";
