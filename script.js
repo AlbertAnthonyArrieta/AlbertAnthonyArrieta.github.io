@@ -13,6 +13,10 @@ function github(){
     window.location.href="https://github.com/Alobyte";
 }
 
+function codepen(){
+    window.location.href="https://codepen.io/Alobyte";
+}
+
 function linkedin(){
     window.location.href="https://www.linkedin.com/in/albert-arrieta/";
 }
