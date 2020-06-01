@@ -121,6 +121,14 @@ p{
   border-radius: 0!important;
 }
 
+.modal-footer{
+  justify-content: flex-start !important;
+}
+
+.projectClose{
+  margin: -1rem 1rem -1rem auto !important;
+}
+
 .projectImage{
   width: 766px !important;
   height: 455px !important;
@@ -247,6 +255,63 @@ p{
   margin-top: 2rem;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+}
+
+.projectBtn{
+  margin-bottom: 2rem;
+  border: 3px solid #ff206e;
+  border-radius: 0.1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: #ff206e;
+  font-size: 1rem;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.projectBtn:hover{
+  background-color: #ffffff;
+  color:#ff206e;
+}
+
+.gg-external {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 10px;
+  height: 10px;
+  box-shadow:
+      -2px 2px 0 0,
+      -4px -4px 0 -2px,
+      4px 4px 0 -2px;
+  margin-left: 8px;
+  margin-top: 7px;
+  float: right;
+}
+.gg-external::after,
+.gg-external::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  right: -4px
+}
+.gg-external::before {
+  background: currentColor;
+  transform: rotate(-45deg);
+  width: 12px;
+  height: 2px;
+  top: 1px
+}
+.gg-external::after {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid;
+  border-top: 2px solid;
+  top: -4px
 }
 
 @keyframes bouncing {
