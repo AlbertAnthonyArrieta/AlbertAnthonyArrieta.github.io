@@ -60,6 +60,14 @@
   }
 } */
 
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden;  This will fix white spacing overflow on the right but will disable navbar stickytop*/
+}
+
+
 #titleContainer {
   margin-top: 3vh;
   margin-bottom: 10vh;
@@ -67,6 +75,11 @@
 
 #titleBox{
   border-left: 0.5rem solid #50c9ce;
+}
+
+#title{
+  margin-top: 10vh;
+  text-align: center;
 }
 
 a {
@@ -88,12 +101,12 @@ p{
 }
 
 .bigtext {
-  font-size: 8vw;
+  font-size: 15vh;
   border-bottom: 0;
 }
 
 .secondaryTitle{
-  font-size: 4.5vw !important;
+  font-size: 8vh !important;
 }
 
 .jumbotron {
@@ -143,7 +156,6 @@ p{
   padding-bottom: 0.5rem;
   padding-left: 0.7rem;
   padding-right: 0.7rem;
-  background-color: #1f2123;
 }
 
 #landingSection {
@@ -152,6 +164,12 @@ p{
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+#particleArt{
+  position: absolute;
+  background: #1f2123;
+  vertical-align: bottom;
 }
 
 #navbar {

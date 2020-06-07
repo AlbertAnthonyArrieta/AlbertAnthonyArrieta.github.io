@@ -27,50 +27,57 @@
     <title>Albert Arrieta</title>
   </head>
   <body>
-    <!-- AOS Initialization -->
-    <script src="AOSinit.js"></script>
+    
 
     <!-- Landing Section -->
-    <div class="jumbotron jumbotron-fluid text-center" id="landingSection">
-      <div class="container text-left" id="title">
-        <div class="row" id="titleContainer">
-          <div 
-              id="titleBox"
-              data-aos="fade-down"
-              data-aos-duration="1300">
-            <div
-              class="col-11"
-              data-aos="fade-left"
-              data-aos-delay="1300"
-              data-aos-duration="1000"
-              id="titleText"
-            >
-              <h2 class="bigtext">Hello!</h2>
-              <h3  class="display-3 secondaryTitle">
-                My name is
-                <span class="pink-text">Albert Arrieta</span>
-                <br>I am a new
-                <span class="pink-text">Developer</span>
-                with a passion for design!
-              </h3>
+    <canvas id="particleArt">
+    </canvas>
+    <script src="./particles.js"></script>
+
+    <!-- AOS Initialization -->
+    <script src="AOSinit.js"></script>
+      <div class="jumbotron jumbotron-fluid text-center" id="landingSection">
+        
+        <div class="container text-left" id="title">
+          <div class="row" id="titleContainer">
+            <div 
+                id="titleBox"
+                data-aos="fade-down"
+                data-aos-duration="1300">
+              <div
+                class="col-11"
+                data-aos="fade-left"
+                data-aos-delay="1300"
+                data-aos-duration="1000"
+                id="titleText"
+              >
+                <h2 class="bigtext">Hello!</h2>
+                <h3  class="display-3 secondaryTitle">
+                  My name is
+                  <span class="pink-text">Albert Arrieta</span>
+                  <br>I am a new
+                  <span class="pink-text">Developer</span>
+                  with a passion for design!
+                </h3>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div data-aos="fade-down" data-aos-delay="3000">
-        <p class="mb-1">Check out my stuff!</p>
-        <button id="checkingBtn">
-          <div id="bounceBox">
-            <i
-              class="fa fa-angle-double-down fa-3x animate-bounce"
-              aria-hidden="true"
-              id="doubledown"
-            ></i>
-          </div>
-        </button>
+        <div data-aos="fade-down" data-aos-delay="3000">
+          <p class="mb-1">Check out my stuff!</p>
+          <a id="checkingBtn" href="#aboutSection">
+            <div id="bounceBox">
+              <i
+                class="fa fa-angle-double-down fa-3x animate-bounce"
+                aria-hidden="true"
+                id="doubledown"
+              ></i>
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
+    
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top" id="navbar">
@@ -293,7 +300,7 @@
               <br>Most of my contributions during development was to:
               <ul>
                 <li>
-                  Develop CRUD services that communicated with the sql backend that
+                  Develop CRUD services that communicated with the sql backend which
                   uses a SpringBoot RESTful api.
                 </li>
                 
