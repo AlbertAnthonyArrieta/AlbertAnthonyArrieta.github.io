@@ -164,6 +164,7 @@ p{
   justify-content: center;
   align-items: center;
   height: 100vh;
+  text-shadow: -1px 0 #1f2123, 0 1px #1f2123, 1px 0 #1f2123, 0 -1px #1f2123;
 }
 
 #particleArt{
