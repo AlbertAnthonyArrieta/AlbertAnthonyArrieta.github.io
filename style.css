@@ -171,6 +171,7 @@ p{
   position: absolute;
   background: #1f2123;
   vertical-align: bottom;
+  width: 99vw;
 }
 
 #navbar {
