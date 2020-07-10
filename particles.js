@@ -1,3 +1,9 @@
+/**
+ * Particle/Bubble animation for the landing section.
+ * If you're interested in more animations, check out my codepen where I experiment with more animations like these! https://codepen.io/Alobyte
+ */
+
+
 const canvas = document.getElementById("particleArt");
 const ctx = canvas.getContext('2d');
 ctx.canvas.width = window.innerWidth;
