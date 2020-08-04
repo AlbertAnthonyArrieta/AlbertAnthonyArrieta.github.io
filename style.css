@@ -252,6 +252,14 @@ p{
   margin-right: auto;
 }
 
+#discord-logo{
+  height: 15rem;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .socialBtn {
   border: 0px solid #ffffff;
   border-radius: 0%;
