@@ -28,3 +28,8 @@ function carsweb(){
 function carsGit(){
     window.location.href="https://github.com/IvanOkh/Volunteer-Management-System-Frontend";
 }
+
+function botGit(){
+    window.location.href="https://github.com/Alobyte/caption-me-bot";
+}
+
