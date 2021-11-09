@@ -25,6 +25,10 @@ function carsweb(){
     window.location.href="http://goptech.ca/";
 }
 
+function albronweb(){
+    window.location.href="https://albrondgsinc.com/";
+}
+
 function carsGit(){
     window.location.href="https://github.com/IvanOkh/Volunteer-Management-System-Frontend";
 }
