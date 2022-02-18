@@ -210,6 +210,19 @@ p{
   background-color: rgb(22, 27, 34);
 }
 
+#mainGitBtn {
+  margin-bottom: 2rem;
+  border: 3px solid #50c9ce;
+  border-radius: 0.1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #E9ECEF;
+  margin-bottom: 5rem;
+  font-size: 1.3rem;
+}
+
 #emailBtn {
   margin-bottom: 2rem;
   border: 3px solid #ff206e;
