@@ -10,7 +10,7 @@ function mailMe(){
 }
 
 function github(){
-    window.location.href="https://github.com/Alobyte";
+    window.location.href="https://github.com/AlbertAnthonyArrieta";
 }
 
 function codepen(){
@@ -34,6 +34,6 @@ function carsGit(){
 }
 
 function botGit(){
-    window.location.href="https://github.com/Alobyte/caption-me-bot";
+    window.location.href="https://github.com/AlbertArrieta/caption-me-bot";
 }
 
