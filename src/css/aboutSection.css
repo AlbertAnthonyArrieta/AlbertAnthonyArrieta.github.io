@@ -1,0 +1,21 @@
+.section--subheading__technologies {
+    margin-top: 500px;
+}
+
+.technology--container {
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 50px
+}
+
+.technology--tiles {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+

@@ -1,0 +1,121 @@
+
+/* Colour Palette 
+Black - #1E2023
+Bluish Black - #161B22
+White - #FEFFFE
+Pink - #FE206F
+Cyan - #50C8CF
+Light Grey - #DEDEDF
+Button Grey - #DDDDDD
+*/
+
+:root {
+  --black: #121315;
+  --bluishBlack: #0d1014;
+  --pink: #FE206F;
+  --cyan: #50C8CF;
+  --white: #FEFFFE;
+  --lightGrey: #DEDEDF;
+  --Grey: #4b4b4b;
+  --neutralGrey: gray;
+  --darkGrey: #1c1c1c;
+  --btnGrey: #DDDDDD;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  body,
+  html {
+    margin: 0;
+    min-height: 100vh;
+    
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+
+  h3 {
+    padding-bottom: 20px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--white);
+  }
+
+  .text__center {
+    text-align: center;
+  }
+  
+  .color__cyan {
+    color: var(--cyan) !important;
+  }
+  
+  .color__pink {
+    color: var(--pink) !important;
+  }
+
+  /* Sections */
+
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .section--container {
+    padding-top: 50px;
+}
+
+  .section--title {
+    text-align: center;
+  }
+
+  .text--subheading {
+    border-left: var(--pink) solid 5px;
+    padding-left: 10px;
+  }
+
+  .text--highlight__cyan {
+    background-color: var(--cyan);
+    color: var(--white);
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .text--highlight__pink {
+    background-color: var(--pink);
+    color: var(--white);
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 0px;
+  }
+
+  .modal {
+    border-radius: 0 !important;
+  }
+
+  /* Mobile */
+  @media (max-width: 480px) {
+    .text__big {
+      font-size: 64px;
+    }
+
+    .section--title {
+      padding: 25px;
+    }
+
+    .projectCard--tag--text {
+    }
+
+    .tags {
+      font-size: small;
+    }
+  }

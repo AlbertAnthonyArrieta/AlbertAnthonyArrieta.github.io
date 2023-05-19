@@ -1,0 +1,149 @@
+.projectCard {
+    box-shadow: 0px 10px 10px -3px var(--lightGrey);
+    width: 400px;
+    height: 650px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.projectCard:hover {
+    transform: scale(1.05);
+}
+
+.projectCard--img {
+    width: 400px;
+    height: 300px;
+}
+
+.projectCard--type {
+    margin: 0;
+}
+
+.projectCard--name {
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.projectCard--desc {
+    height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.projectCard--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projectCard--content {
+    padding: 10px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.project--tags {
+    position: absolute;
+    margin-top: 295px;
+    flex-wrap: wrap;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.projectCard--tags p {
+    margin: 0;
+}
+
+/* Modal */
+
+.modal--img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.modal--header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal--titles {
+    padding-right: 50px;
+}
+
+.modal--name {
+    margin-top: 10px;
+}
+
+.modal--tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: right;
+}
+
+.modal--subheading {
+    padding-bottom: 10px;
+}
+
+.modal--button {
+    border: none;
+    background-color: var(--white);
+}
+
+.modal--button:hover {
+    transform: scale(.85);
+}
+
+.modal--link {
+    font-weight: 700;
+    color: var(--Grey);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.modal--link--disabled {
+    visibility: hidden;
+}
+
+.modal--icon {
+    fill: var(--pink);
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+.modal--icon__grey {
+    fill: var(--neutralGrey);
+    width: 30px;
+    margin-right: 10px;
+}
+
+.modal--footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 420px) {
+    .projectCard {
+        width: 300px;
+    }
+
+    .projectCard--img {
+        width: 300px;
+        height: 225px;
+    }
+
+    .projectCard--tags {
+        visibility: hidden;
+    }
+
+    .modal--tags p {
+        font-size: 12px;
+    }
+}

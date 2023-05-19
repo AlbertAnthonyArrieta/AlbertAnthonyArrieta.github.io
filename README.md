@@ -1,3 +1,2 @@
-# MyPortfolio
-Building a website that will contain all my projects and details about me as a developer
-![Portfolio](https://github.com/Alobyte/MyPortfolio/blob/master/portfolioSC.jpg)
+# React Portfolio
+This is the main repository for the new website portfolio upgraded with React
