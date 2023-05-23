@@ -13,6 +13,17 @@
     padding-left: 15px;
     padding-right: 15px;
     flex-grow: 1;
+    border: solid 2px var(--lightGrey);
+}
+
+.filterBar--button:hover {
+    border: none;
+    background-color: var(--lightGrey);
+    border: solid 2px var(--pink);
+    color: var(--pink);
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-grow: 1;
 }
 
 .filterBar--button__active {

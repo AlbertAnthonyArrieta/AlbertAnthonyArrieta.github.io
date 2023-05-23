@@ -1,5 +1,7 @@
 import { Container } from "react-bootstrap";
 import { ProjectCard } from "../common/ProjectCard";
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import { useState } from "react";
 import PortfolioPic from '../../images/portfolioPic.png';
 import PortfolioPic2 from '../../images/beforeaftportfolio-3.jpg';
@@ -55,7 +57,7 @@ const projects = [
         github: 'https://github.com/IvanOkh/Volunteer-Management-System-Frontend',
         tags: ['AngularJS', 'TypeScript', 'HTML', 'CSS'],
         summary: 'A volunteer management system created for the non-profit organization Calgary Animal Rescue Society (CARS). The system aims to provide CARS administrators with the ability to oversee and organize various aspects, including volunteer information, foster information, volunteer applications, foster applications, and event management, with registration options for active volunteers. Initially conceived as a capstone project for SAIT, this initiative has evolved into a comprehensive solution.'
-        
+
     },
     {
         name: "The Infinity Stones",
@@ -102,22 +104,24 @@ export const ProjectsSection = () => {
 
     const filteredProjects = projects.filter((project) => {
         if (filter === "All") {
-          return true;
+            return true;
         } else if (filter === "Web Apps") {
-          return project.type === "Web App";
+            return project.type === "Web App";
         } else if (filter === "Desktop Apps") {
-          return project.type === "Desktop App";
+            return project.type === "Desktop App";
         } else if (filter === "Mobile Apps") {
             return project.type === "Mobile App";
         } else {
             return true;
         }
-      });
+    });
 
     return (
         <div id="projects" className="section projects">
             <Container>
-                <h1 className="section--title">PROJECTS</h1>
+                <Fade top>
+                    <h1 className="section--title">PROJECTS</h1>
+                </Fade>
                 <div className="section--container">
                     <div className="filterBar">
                         <button className={filter === "All" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("All")}>ALL</button>
@@ -125,12 +129,14 @@ export const ProjectsSection = () => {
                         <button className={filter === "Desktop Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Desktop Apps")}>DESKTOP APPS</button>
                         <button className={filter === "Mobile Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Mobile Apps")}>MOBILE APPS</button>
                     </div>
-
-                    <div className="project--cards--container">
-                        {filteredProjects.map((project) => (
-                            <ProjectCard project={project} />
-                        ))}
+                    <div>
+                        <div className="project--cards--container">
+                            {filteredProjects.map((project) => (
+                                <ProjectCard project={project} />
+                            ))}
+                        </div>
                     </div>
+
                 </div>
             </Container>
         </div>

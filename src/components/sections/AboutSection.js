@@ -2,6 +2,8 @@ import Container from 'react-bootstrap/Container';
 import ImageAndDesc from "../common/ImageAndDesc";
 import ProfilePic from '../../images/profile.png';
 import TechnologyTile from "../common/TechnologyTile"
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 
 import { ReactComponent as JavaIcon } from '../../icons/java.svg';
 import { ReactComponent as CPPIcon } from '../../icons/cpp.svg';
@@ -27,7 +29,10 @@ export const AboutSection = () => {
     return (
         <div id="about" className='section about'>
             <Container>
-                <h1 className='section--title'>ABOUT ME</h1>
+                <Fade top>
+                    <h1 className='section--title'>ABOUT ME</h1>
+                </Fade>
+
                 <div className='section--container'>
                     <ImageAndDesc
                         img={ProfilePic}
@@ -37,40 +42,45 @@ export const AboutSection = () => {
                     />
                 </div>
                 <div className='section--container'>
-                    <h2 className='text--subheading'>Technologies</h2>
-                    <div className='technology--container'>
-                        <div className='about--item'>
-                            <h3 className='text--highlight__cyan'>Programming Languages</h3>
-                            <div className='technology--tiles'>
-                                <TechnologyTile icon={<JavaIcon />} name={'Java'} />
-                                <TechnologyTile icon={<CPPIcon />} name={'C++'} />
-                                <TechnologyTile icon={<HTMLIcon />} name={'HTML5'} />
-                                <TechnologyTile icon={<CSSIcon />} name={'CSS'} />
-                                <TechnologyTile icon={<JsIcon />} name={'JavaScript'} />
-                                <TechnologyTile icon={<PythonIcon />} name={'Python'}/>
-                                <TechnologyTile icon={<SQLIcon />} name={'mySQL'} />
-                            </div>
+                    <Fade top>
+                        <h2 className='text--subheading'>Technologies</h2>
+                    </Fade>
+                    <Slide right cascade>
+                        <div className='technology--container'>
+                            <div className='about--item'>
+                                <h3 className='text--highlight__cyan'>Programming Languages</h3>
+                                <div className='technology--tiles'>
+                                    <TechnologyTile icon={<JavaIcon />} name={'Java'} />
+                                    <TechnologyTile icon={<CPPIcon />} name={'C++'} />
+                                    <TechnologyTile icon={<HTMLIcon />} name={'HTML5'} />
+                                    <TechnologyTile icon={<CSSIcon />} name={'CSS'} />
+                                    <TechnologyTile icon={<JsIcon />} name={'JavaScript'} />
+                                    <TechnologyTile icon={<PythonIcon />} name={'Python'} />
+                                    <TechnologyTile icon={<SQLIcon />} name={'mySQL'} />
+                                </div>
 
-                        </div>
-                        <div className='about--item'>
-                            <h3 className='text--highlight__cyan'>Front-end</h3>
-                            <div className='technology--tiles'>
-                                <TechnologyTile icon={<ReactIcon />} name={'React'} />
-                                <TechnologyTile icon={<AngularIcon />} name={'Angular'} />
-                                <TechnologyTile icon={<JQueryIcon />} name={'JQuery'} />
-                                <TechnologyTile icon={<Fw7Icon />} name={'Framework7'} />
-                                <TechnologyTile icon={<BSIcon />} name={'Bootstrap'} />
+                            </div>
+                            <div className='about--item'>
+                                <h3 className='text--highlight__cyan'>Front-end</h3>
+                                <div className='technology--tiles'>
+                                    <TechnologyTile icon={<ReactIcon />} name={'React'} />
+                                    <TechnologyTile icon={<AngularIcon />} name={'Angular'} />
+                                    <TechnologyTile icon={<JQueryIcon />} name={'JQuery'} />
+                                    <TechnologyTile icon={<Fw7Icon />} name={'Framework7'} />
+                                    <TechnologyTile icon={<BSIcon />} name={'Bootstrap'} />
+                                </div>
+                            </div>
+                            <div className='about--item'>
+                                <h3 className='text--highlight__cyan'>Tools</h3>
+                                <div className='technology--tiles'>
+                                    <TechnologyTile icon={<GitHubIcon />} name={'GitHub'} />
+                                    <TechnologyTile icon={<GitLabIcon />} name={'GitLab'} />
+                                    <TechnologyTile icon={<VScodeIcon />} name={'VScode'} />
+                                </div>
                             </div>
                         </div>
-                        <div className='about--item'>
-                            <h3 className='text--highlight__cyan'>Tools</h3>
-                            <div className='technology--tiles'>
-                                <TechnologyTile icon={<GitHubIcon />} name={'GitHub'} />
-                                <TechnologyTile icon={<GitLabIcon />} name={'GitLab'} />
-                                <TechnologyTile icon={<VScodeIcon />} name={'VScode'} />
-                            </div>
-                        </div>
-                    </div>
+                    </Slide>
+
                 </div>
             </Container>
         </div>
