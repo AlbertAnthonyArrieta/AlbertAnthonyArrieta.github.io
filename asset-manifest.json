@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AlbertAnthonyArrieta.github.io/static/css/main.41eb9eea.css",
-    "main.js": "/AlbertAnthonyArrieta.github.io/static/js/main.0d3eeebd.js",
+    "main.css": "/AlbertAnthonyArrieta.github.io/static/css/main.9ceabc83.css",
+    "main.js": "/AlbertAnthonyArrieta.github.io/static/js/main.a5e7c906.js",
     "static/js/787.e29dc422.chunk.js": "/AlbertAnthonyArrieta.github.io/static/js/787.e29dc422.chunk.js",
     "static/media/imageseg-1.jpg": "/AlbertAnthonyArrieta.github.io/static/media/imageseg-1.2b051e66b02736c6f4c3.jpg",
     "static/media/carsPic.png": "/AlbertAnthonyArrieta.github.io/static/media/carsPic.7febf1846b6f9c8e2fa7.png",
@@ -44,12 +44,12 @@
     "static/media/html5.svg": "/AlbertAnthonyArrieta.github.io/static/media/html5.b12781148ff91e07ec729198b113b2ef.svg",
     "static/media/angular.svg": "/AlbertAnthonyArrieta.github.io/static/media/angular.d07edfa961d64f1cf422e8abb3df0859.svg",
     "static/media/framework7.svg": "/AlbertAnthonyArrieta.github.io/static/media/framework7.72fe100848a8931e01d24a930e4f204d.svg",
-    "main.41eb9eea.css.map": "/AlbertAnthonyArrieta.github.io/static/css/main.41eb9eea.css.map",
-    "main.0d3eeebd.js.map": "/AlbertAnthonyArrieta.github.io/static/js/main.0d3eeebd.js.map",
+    "main.9ceabc83.css.map": "/AlbertAnthonyArrieta.github.io/static/css/main.9ceabc83.css.map",
+    "main.a5e7c906.js.map": "/AlbertAnthonyArrieta.github.io/static/js/main.a5e7c906.js.map",
     "787.e29dc422.chunk.js.map": "/AlbertAnthonyArrieta.github.io/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41eb9eea.css",
-    "static/js/main.0d3eeebd.js"
+    "static/css/main.9ceabc83.css",
+    "static/js/main.a5e7c906.js"
   ]
 }
