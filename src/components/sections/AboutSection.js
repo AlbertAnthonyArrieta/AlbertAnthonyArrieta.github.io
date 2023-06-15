@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import ImageAndDesc from "../common/ImageAndDesc";
-import ProfilePic from '../../images/profile.png';
+import ProfilePic from '../../images/profile.jpg';
 import TechnologyTile from "../common/TechnologyTile"
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
