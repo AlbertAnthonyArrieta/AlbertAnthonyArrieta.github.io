@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/AlbertAnthonyArrieta.github.io/static/css/main.9ceabc83.css",
-    "main.js": "/AlbertAnthonyArrieta.github.io/static/js/main.a5e7c906.js",
+    "main.js": "/AlbertAnthonyArrieta.github.io/static/js/main.01fb0126.js",
     "static/js/787.e29dc422.chunk.js": "/AlbertAnthonyArrieta.github.io/static/js/787.e29dc422.chunk.js",
+    "static/media/profile.jpg": "/AlbertAnthonyArrieta.github.io/static/media/profile.42fc193b863f233596d3.jpg",
     "static/media/imageseg-1.jpg": "/AlbertAnthonyArrieta.github.io/static/media/imageseg-1.2b051e66b02736c6f4c3.jpg",
     "static/media/carsPic.png": "/AlbertAnthonyArrieta.github.io/static/media/carsPic.7febf1846b6f9c8e2fa7.png",
     "static/media/albronPic.png": "/AlbertAnthonyArrieta.github.io/static/media/albronPic.70cbbc351777b0bd89ee.png",
@@ -11,7 +12,6 @@
     "static/media/imageseg-2.jpg": "/AlbertAnthonyArrieta.github.io/static/media/imageseg-2.b519fe48780ddc17fa24.jpg",
     "static/media/infinityPic.png": "/AlbertAnthonyArrieta.github.io/static/media/infinityPic.f08b5714d93f5b67a428.png",
     "static/media/albronpic2.png": "/AlbertAnthonyArrieta.github.io/static/media/albronpic2.e005323969b9bec143a1.png",
-    "static/media/profile.png": "/AlbertAnthonyArrieta.github.io/static/media/profile.3dc853a1a922c5452036.png",
     "static/media/portfolioPic.png": "/AlbertAnthonyArrieta.github.io/static/media/portfolioPic.d92a373f00fcd2f10b1d.png",
     "static/media/cars2.jpg": "/AlbertAnthonyArrieta.github.io/static/media/cars2.395293a1e7c34af89a74.jpg",
     "static/media/ticPic.png": "/AlbertAnthonyArrieta.github.io/static/media/ticPic.e9e56034e4dd162d5f36.png",
@@ -45,11 +45,11 @@
     "static/media/angular.svg": "/AlbertAnthonyArrieta.github.io/static/media/angular.d07edfa961d64f1cf422e8abb3df0859.svg",
     "static/media/framework7.svg": "/AlbertAnthonyArrieta.github.io/static/media/framework7.72fe100848a8931e01d24a930e4f204d.svg",
     "main.9ceabc83.css.map": "/AlbertAnthonyArrieta.github.io/static/css/main.9ceabc83.css.map",
-    "main.a5e7c906.js.map": "/AlbertAnthonyArrieta.github.io/static/js/main.a5e7c906.js.map",
+    "main.01fb0126.js.map": "/AlbertAnthonyArrieta.github.io/static/js/main.01fb0126.js.map",
     "787.e29dc422.chunk.js.map": "/AlbertAnthonyArrieta.github.io/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ceabc83.css",
-    "static/js/main.a5e7c906.js"
+    "static/js/main.01fb0126.js"
   ]
 }
