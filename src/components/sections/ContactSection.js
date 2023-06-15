@@ -14,7 +14,9 @@ export const ContactSection = () => {
             <Container>
                 <Fade top cascade>
                     <h1>CONTACT ME</h1>
-                    <h2 className='contact--subheading'>If you need any further information or want to connect, feel free to reach out by sending me a message! </h2>
+                    <div>
+                        <p className='contact--subheading'>If you need any further information or want to connect, feel free to reach out by sending me a message! </p>
+                    </div>
                     <div className='contact--email--container'>
                         <button className='contact--email--btn' onClick={() => window.location.href = 'mailto:albert.arrieta12@gmail.com'}> Send me an Email <EmailIcon className='emailIcon' /> </button>
                     </div>
