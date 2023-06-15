@@ -18,12 +18,11 @@
 
 .filterBar--button:hover {
     border: none;
-    background-color: var(--lightGrey);
-    border: solid 2px var(--pink);
-    color: var(--pink);
+    background-color: #b9b9b9;
     padding-left: 15px;
     padding-right: 15px;
     flex-grow: 1;
+    border: solid 2px #b9b9b9;
 }
 
 .filterBar--button__active {

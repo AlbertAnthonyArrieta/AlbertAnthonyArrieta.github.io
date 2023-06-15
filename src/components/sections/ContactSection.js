@@ -19,7 +19,7 @@ export const ContactSection = () => {
                         <button className='contact--email--btn' onClick={() => window.location.href = 'mailto:albert.arrieta12@gmail.com'}> Send me an Email <EmailIcon className='emailIcon' /> </button>
                     </div>
                     <div className='contacts--links'>
-                        <button className='contact--btn' onClick={() => window.location.href = 'https:www.linkedin.com/in/albert-arrieta/?originalSubdomain=ca'}><LinkedinIcon /></button>
+                        <button className='contact--btn' onClick={() => window.location.href = 'https://www.linkedin.com/in/albert-arrieta/'}><LinkedinIcon /></button>
                         <button className='contact--btn' onClick={() => window.location.href = 'https://github.com/AlbertAnthonyArrieta'}><GitIcon /></button>
                         <button className='contact--btn' onClick={() => window.location.href = 'https://codepen.io/Albert-Arrieta'} ><CodepenIcon /></button>
                     </div>

@@ -38,7 +38,7 @@ export const AboutSection = () => {
                         img={ProfilePic}
                         heading={"Who is this guy?"}
                         paragraph={
-                            "Hi there! I'm Albert, a Computer Science major in my last year at The University of Lethbridge, with a minor in New Media. I specialize in Front-end development, utilizing my creative ideas and eye for design to construct remarkable web applications. Furthermore, I hold a keen interest in full-stack development and aspire to develop robust, top-notch software."}
+                            "Hey there! I'm Albert, a Computer Science major in my last year at The University of Lethbridge, with a minor in New Media. I specialize in Front-end development, utilizing my creative ideas and eye for design to construct remarkable web applications. Furthermore, I hold a keen interest in full-stack development and aspire to develop robust, top-notch software."}
                     />
                 </div>
                 <div className='section--container'>
