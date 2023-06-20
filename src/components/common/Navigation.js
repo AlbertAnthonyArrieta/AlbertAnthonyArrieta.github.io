@@ -10,7 +10,6 @@ function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className='ms-auto'>
-              <Nav.Link href="#home">HOME</Nav.Link>
               <Nav.Link href="#about">ABOUT</Nav.Link>
               <Nav.Link href="#projects">PROJECTS</Nav.Link>
               <Nav.Link href="#contact">CONTACT</Nav.Link>
