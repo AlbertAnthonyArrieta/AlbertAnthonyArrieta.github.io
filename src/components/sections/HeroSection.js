@@ -117,14 +117,14 @@ export const HeroSection = () => {
 							My name is
 							<span className='color__white'> Albert Arrieta</span>.<br></br>
 							I am a
-							<span className='color__cyan'> Software Developer </span>
+							<span className='color__cyan'> Web Developer </span>
 							who is driven to create
 							<span className='color__pink'> Functional</span>
 							,
 							<span className='color__pink'> Elegant</span>
 							,
 							and
-							<span className='color__pink'> User-friendly </span>
+							<span className='color__pink'> User-Friendly </span>
 							applications.
 						</h1>
 					</Container>

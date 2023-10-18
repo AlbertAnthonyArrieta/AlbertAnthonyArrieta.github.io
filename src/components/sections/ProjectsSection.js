@@ -24,12 +24,13 @@ import InfinityPic3 from '../../images/infinityPic3.png';
 
 const projects = [
     {
-        name: "My Portfolio",
-        type: "Web App",
-        description: "This current website portfolio you are on right now! Upgraded to React.",
-        imgs: [PortfolioPic, PortfolioPic2, PortfolioPic3],
-        tags: ['React', 'JavaScript', 'HTML', 'CSS'],
-        summary: "This project is the current website you are on right now! This website was created using React and showcases everything about myself! If you would like to get to know more about me, feel free to contact me!"
+        name: "Image Thresholding",
+        type: "Desktop App",
+        description: "A Java application that processes several image thresholding algorithms for black and white images.",
+        imgs: [ThresholdPic, ThresholdPic2],
+        tags: ['Java', 'Image Processing'],
+        summary: 'This Java application performs image processing using two distinct Image Thresholding algorithms: Mean Thresholding and Histogram Thresholding. By selecting an image and applying the preferred algorithm, the application generates a new image where contrasting colors are separated into either black or white tones.',
+        github: 'https://github.com/AlbertAnthonyArrieta/ImageThresholding'
     },
     {
         name: "Riddler",
@@ -39,15 +40,6 @@ const projects = [
         tags: ['Framework7', 'JavaScript', 'HTML', 'CSS'],
         github: 'https://github.com/AlbertAnthonyArrieta/Riddler-App',
         summary: "An Android game developed using Framework7, designed to entertain with a collection of challenging riddles. Embark on a journey through 10 levels of mind-bending puzzles, earning points as you successfully unravel each enigma. Accumulate these points to acquire valuable hints, which can be used to tackle upcoming riddles."
-    },
-    {
-        name: "Albron DGS Inc Website",
-        type: "Web App",
-        description: "A commercial Website created for Design and Drafting company AlbronDGS Inc, built on the React framework.",
-        imgs: [AlbronPic, AlbronPic2],
-        link: 'https://albrondgsinc.com/',
-        tags: ['React', 'JavaScript', 'HTML', 'CSS'],
-        summary: "Built with React, this website serves as a commercial platform for Albron DGS Inc. Its primary objective is to exhibit the company's comprehensive range of services and highlight their diverse portfolio of completed projects."
     },
     {
         name: "CARS Volunteer Management System",
@@ -70,24 +62,6 @@ const projects = [
         summary: "Explore the infinity stones on this mini website and delve into their significance in the Marvel Cinematic Universe. Gather the stones to uncover their individual powers and roles. After obtaining all the stones, unleash their combined might with a single click to witness the aftermath following Avengers: Infinity War."
     },
     {
-        name: "Spirit Detector",
-        type: "Mobile App",
-        description: "An android app created using Framework7 that utilizes the device's gyroscope and accelerometer.",
-        imgs: [SpiritPic],
-        tags: ['Framework7', 'JavaScript', 'HTML', 'CSS'],
-        github: 'https://github.com/AlbertAnthonyArrieta/Spirit-Detector',
-        summary: "This Android application built on Framework7 serves as a tool for detecting 'spirits' present in your surroundings. By utilizing the device's orientation, the app detects these entities. Each time the spirit detector is turned on, the app generates random X and Z angles. As you approach the designated X and Z angles, the signal strength of the tool intensifies, indicating the proximity to the detected spirits."
-    },
-    {
-        name: "Image Thresholding",
-        type: "Desktop App",
-        description: "A Java application that processes several image thresholding algorithms for black and white images.",
-        imgs: [ThresholdPic, ThresholdPic2],
-        tags: ['Java', 'Image Processing'],
-        summary: 'This Java application performs image processing using two distinct Image Thresholding algorithms: Mean Thresholding and Histogram Thresholding. By selecting an image and applying the preferred algorithm, the application generates a new image where contrasting colors are separated into either black or white tones.',
-        github: 'https://github.com/AlbertAnthonyArrieta/ImageThresholding'
-    },
-    {
         name: "Tic Tac Toe AI",
         type: "Desktop App",
         description: "A Java application with an unbeatable AI using the MinMax Algorithm.",
@@ -95,6 +69,32 @@ const projects = [
         tags: ['Java', 'AI'],
         summary: 'Engage in an intense game of Tic Tac Toe against an AI opponent that utilizes the MiniMax algorithm.',
         github: 'https://github.com/AlbertAnthonyArrieta/TicTacToeAI'
+    },
+    {
+        name: "Albron DGS Inc Website",
+        type: "Web App",
+        description: "A commercial Website created for Design and Drafting company AlbronDGS Inc, built on the React framework.",
+        imgs: [AlbronPic, AlbronPic2],
+        link: 'https://albrondgsinc.com/',
+        tags: ['React', 'JavaScript', 'HTML', 'CSS'],
+        summary: "Built with React, this website serves as a commercial platform for Albron DGS Inc. Its primary objective is to exhibit the company's comprehensive range of services and highlight their diverse portfolio of completed projects."
+    },
+    {
+        name: "My Portfolio",
+        type: "Web App",
+        description: "This current website portfolio you are on right now! Upgraded using React.",
+        imgs: [PortfolioPic, PortfolioPic2, PortfolioPic3],
+        tags: ['React', 'JavaScript', 'HTML', 'CSS'],
+        summary: "This project is the current website you are on right now! This website was created using React and showcases everything about myself! If you would like to get to know more about me, feel free to contact me!"
+    },
+    {
+        name: "Spirit Detector",
+        type: "Mobile App",
+        description: "An android app created using Framework7 that utilizes the device's gyroscope and accelerometer.",
+        imgs: [SpiritPic],
+        tags: ['Framework7', 'JavaScript', 'HTML', 'CSS'],
+        github: 'https://github.com/AlbertAnthonyArrieta/Spirit-Detector',
+        summary: "This Android application built on Framework7 serves as a tool for detecting 'spirits' present in your surroundings. By utilizing the device's orientation, the app detects these entities. Each time the spirit detector is turned on, the app generates random X and Z angles. As you approach the designated X and Z angles, the signal strength of the tool intensifies, indicating the proximity to the detected spirits."
     },
 ]
 
