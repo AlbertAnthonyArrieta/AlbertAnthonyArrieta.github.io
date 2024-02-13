@@ -36,9 +36,9 @@ export const AboutSection = () => {
                 <div className='section--container'>
                     <ImageAndDesc
                         img={ProfilePic}
-                        heading={"Who is this guy?"}
+                        heading={"Who am I?"}
                         paragraph={
-                            "Hey there! I'm Albert, a Computer Science major in my last year at The University of Lethbridge, with a minor in New Media. I specialize in Front-end development, utilizing my creative ideas and eye for design to construct remarkable web applications. Furthermore, I hold a keen interest in full-stack development and aspire to develop robust, top-notch software."}
+                            "Hello there! I'm Albert, a Computer Science major with a minor in New Media, in the final year of my studies at The University of Lethbridge. My expertise lies in web development, where I apply my extensive problem-solving skills and keen eye for design to create remarkable web applications. Additionally, I'm deeply passionate about full-stack development and strive to craft robust, top-notch software solutions."}
                     />
                 </div>
                 <div className='section--container'>

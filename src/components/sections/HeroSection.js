@@ -121,7 +121,7 @@ export const HeroSection = () => {
 							who is driven to create
 							<span className='color__pink'> Functional</span>
 							,
-							<span className='color__pink'> Elegant</span>
+							<span className='color__pink'> Efficient</span>
 							,
 							and
 							<span className='color__pink'> User-Friendly </span>
