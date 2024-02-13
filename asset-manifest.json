@@ -1,17 +1,23 @@
 {
   "files": {
     "main.css": "/AlbertAnthonyArrieta.github.io/static/css/main.1c25bfb7.css",
-    "main.js": "/AlbertAnthonyArrieta.github.io/static/js/main.0a77278a.js",
+    "main.js": "/AlbertAnthonyArrieta.github.io/static/js/main.aa663537.js",
     "static/js/787.e29dc422.chunk.js": "/AlbertAnthonyArrieta.github.io/static/js/787.e29dc422.chunk.js",
     "static/media/profile.jpg": "/AlbertAnthonyArrieta.github.io/static/media/profile.42fc193b863f233596d3.jpg",
     "static/media/imageseg-1.jpg": "/AlbertAnthonyArrieta.github.io/static/media/imageseg-1.2b051e66b02736c6f4c3.jpg",
     "static/media/carsPic.png": "/AlbertAnthonyArrieta.github.io/static/media/carsPic.7febf1846b6f9c8e2fa7.png",
-    "static/media/albronPic.png": "/AlbertAnthonyArrieta.github.io/static/media/albronPic.70cbbc351777b0bd89ee.png",
+    "static/media/AlbronPic2.png": "/AlbertAnthonyArrieta.github.io/static/media/AlbronPic2.6a02d2f2796da52b3668.png",
+    "static/media/ReelWinder3.png": "/AlbertAnthonyArrieta.github.io/static/media/ReelWinder3.0d555bc3bab50456bafb.png",
+    "static/media/AlbronPic4.png": "/AlbertAnthonyArrieta.github.io/static/media/AlbronPic4.28b0d6ff7905430ea4fe.png",
+    "static/media/AlbronPic3.png": "/AlbertAnthonyArrieta.github.io/static/media/AlbronPic3.ab5bd16b71acd0bd3e61.png",
+    "static/media/ReelWinder2.png": "/AlbertAnthonyArrieta.github.io/static/media/ReelWinder2.7f29cdaeaafcc17fb778.png",
+    "static/media/AlbronPic1.png": "/AlbertAnthonyArrieta.github.io/static/media/AlbronPic1.6f35c9245c1026a6120f.png",
+    "static/media/ReelWinder1.png": "/AlbertAnthonyArrieta.github.io/static/media/ReelWinder1.fedb2762e9c31f6799c8.png",
+    "static/media/jerichopic1.png": "/AlbertAnthonyArrieta.github.io/static/media/jerichopic1.7f44baf6524c2c4223d1.png",
     "static/media/beforeaftportfolio-4.jpg": "/AlbertAnthonyArrieta.github.io/static/media/beforeaftportfolio-4.27e89e0a0ccaa895d003.jpg",
     "static/media/beforeaftportfolio-3.jpg": "/AlbertAnthonyArrieta.github.io/static/media/beforeaftportfolio-3.d94ebc20d16630f3799d.jpg",
     "static/media/imageseg-2.jpg": "/AlbertAnthonyArrieta.github.io/static/media/imageseg-2.b519fe48780ddc17fa24.jpg",
     "static/media/infinityPic.png": "/AlbertAnthonyArrieta.github.io/static/media/infinityPic.f08b5714d93f5b67a428.png",
-    "static/media/albronpic2.png": "/AlbertAnthonyArrieta.github.io/static/media/albronpic2.e005323969b9bec143a1.png",
     "static/media/portfolioPic.png": "/AlbertAnthonyArrieta.github.io/static/media/portfolioPic.d92a373f00fcd2f10b1d.png",
     "static/media/cars2.jpg": "/AlbertAnthonyArrieta.github.io/static/media/cars2.395293a1e7c34af89a74.jpg",
     "static/media/ticPic.png": "/AlbertAnthonyArrieta.github.io/static/media/ticPic.e9e56034e4dd162d5f36.png",
@@ -45,11 +51,11 @@
     "static/media/angular.svg": "/AlbertAnthonyArrieta.github.io/static/media/angular.d07edfa961d64f1cf422e8abb3df0859.svg",
     "static/media/framework7.svg": "/AlbertAnthonyArrieta.github.io/static/media/framework7.72fe100848a8931e01d24a930e4f204d.svg",
     "main.1c25bfb7.css.map": "/AlbertAnthonyArrieta.github.io/static/css/main.1c25bfb7.css.map",
-    "main.0a77278a.js.map": "/AlbertAnthonyArrieta.github.io/static/js/main.0a77278a.js.map",
+    "main.aa663537.js.map": "/AlbertAnthonyArrieta.github.io/static/js/main.aa663537.js.map",
     "787.e29dc422.chunk.js.map": "/AlbertAnthonyArrieta.github.io/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c25bfb7.css",
-    "static/js/main.0a77278a.js"
+    "static/js/main.aa663537.js"
   ]
 }
