@@ -55,6 +55,10 @@ Button Grey - #DDDDDD
     color: var(--cyan) !important;
   }
 
+  button {
+    color: var(--black);
+  }
+
   .text__center {
     text-align: center;
   }
