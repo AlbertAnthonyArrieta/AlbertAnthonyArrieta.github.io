@@ -27,6 +27,9 @@ import ReelWinderPic1 from '../../images/ReelWinder1.png';
 import ReelWinderPic2 from '../../images/ReelWinder2.png';
 import ReelWinderPic3 from '../../images/ReelWinder3.png';
 import JerichoPic1 from '../../images/jerichopic1.png';
+import WordlePic1 from '../../images/wordle1.png';
+import WordlePic2 from '../../images/wordle2.png';
+import WordlePic3 from '../../images/wordle3.png';
 
 const projects = [
     {
@@ -62,10 +65,20 @@ const projects = [
         type: "Web App",
         description: "A Web Application that turns the OMDB API into a mini trivia game.",
         imgs: [ReelWinderPic1, ReelWinderPic2, ReelWinderPic3],
-        tags: ['JQuery', 'JavaScript', 'HTML', 'CSS' ],
+        tags: ['JQuery', 'JavaScript', 'HTML', 'CSS'],
         summary: "This website uses a RESTful API from https://www.omdbapi.com. This project retrieves movie information from omdbapi and uses it for a guessing game. In this game, the user is presented with a random movie along with details such as the release year, director, genre, and a short list of actors. The user's objective is to guess the correct movie using the provided information and attempt to maintain a winning streak without making an incorrect guess. The ultimate goal of the game is to achieve the longest winning streak possible.",
         github: 'https://github.com/AlbertAnthonyArrieta/ReelWinder',
         link: "https://albertarrieta.dev/ReelWinder/",
+    },
+    {
+        name: "Wordle",
+        type: "Web App",
+        description: "My own version of the popular game Wordle, built with React.",
+        imgs: [WordlePic1, WordlePic2, WordlePic3],
+        tags: ['React', 'JavaScript', 'HTML', 'CSS'],
+        summary: "This web application is a clone of the popular game Wordle. The game generates a random five-letter word, and the player has six attempts to guess the word. After each guess, the game provides feedback on the correctness of the guess. The player must use this feedback to deduce the correct word. The game ends when the player guesses the word correctly or runs out of attempts. The game is built using React ontop of Vite. This project was a fun challenge to recreate the game and learn more about React and hooks such as useEffect, useContext, and useState. I also used this project to experiemnt with Vite and also netflify for deployment.",
+        github: 'https://github.com/AlbertAnthonyArrieta/WordleClone',
+        link: "https://wurdle-4b514c.netlify.app/",
     },
     {
         name: "Image Thresholding",
