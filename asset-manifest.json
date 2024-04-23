@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AlbertAnthonyArrieta.github.io/static/css/main.53c5a365.css",
-    "main.js": "/AlbertAnthonyArrieta.github.io/static/js/main.8f04999b.js",
+    "main.css": "/AlbertAnthonyArrieta.github.io/static/css/main.295c4238.css",
+    "main.js": "/AlbertAnthonyArrieta.github.io/static/js/main.f185e2d3.js",
     "static/js/787.82aac0c9.chunk.js": "/AlbertAnthonyArrieta.github.io/static/js/787.82aac0c9.chunk.js",
     "static/media/profile.jpg": "/AlbertAnthonyArrieta.github.io/static/media/profile.42fc193b863f233596d3.jpg",
     "static/media/imageseg-1.jpg": "/AlbertAnthonyArrieta.github.io/static/media/imageseg-1.2b051e66b02736c6f4c3.jpg",
@@ -12,10 +12,13 @@
     "static/media/AlbronPic3.png": "/AlbertAnthonyArrieta.github.io/static/media/AlbronPic3.ab5bd16b71acd0bd3e61.png",
     "static/media/ReelWinder2.png": "/AlbertAnthonyArrieta.github.io/static/media/ReelWinder2.7f29cdaeaafcc17fb778.png",
     "static/media/AlbronPic1.png": "/AlbertAnthonyArrieta.github.io/static/media/AlbronPic1.6f35c9245c1026a6120f.png",
+    "static/media/SG2.png": "/AlbertAnthonyArrieta.github.io/static/media/SG2.dc60c7fa682f53060077.png",
     "static/media/ReelWinder1.png": "/AlbertAnthonyArrieta.github.io/static/media/ReelWinder1.fedb2762e9c31f6799c8.png",
     "static/media/jerichopic1.png": "/AlbertAnthonyArrieta.github.io/static/media/jerichopic1.7f44baf6524c2c4223d1.png",
     "static/media/beforeaftportfolio-4.jpg": "/AlbertAnthonyArrieta.github.io/static/media/beforeaftportfolio-4.27e89e0a0ccaa895d003.jpg",
+    "static/media/SG3.png": "/AlbertAnthonyArrieta.github.io/static/media/SG3.5ec52b0109923fae723a.png",
     "static/media/beforeaftportfolio-3.jpg": "/AlbertAnthonyArrieta.github.io/static/media/beforeaftportfolio-3.d94ebc20d16630f3799d.jpg",
+    "static/media/SG1.png": "/AlbertAnthonyArrieta.github.io/static/media/SG1.686b77f9dba0ebe23b24.png",
     "static/media/imageseg-2.jpg": "/AlbertAnthonyArrieta.github.io/static/media/imageseg-2.b519fe48780ddc17fa24.jpg",
     "static/media/infinityPic.png": "/AlbertAnthonyArrieta.github.io/static/media/infinityPic.f08b5714d93f5b67a428.png",
     "static/media/portfolioPic.png": "/AlbertAnthonyArrieta.github.io/static/media/portfolioPic.d92a373f00fcd2f10b1d.png",
@@ -23,8 +26,8 @@
     "static/media/ticPic.png": "/AlbertAnthonyArrieta.github.io/static/media/ticPic.e9e56034e4dd162d5f36.png",
     "static/media/cars3.jpg": "/AlbertAnthonyArrieta.github.io/static/media/cars3.d65d21c14bb5af73924c.jpg",
     "static/media/riddlerPic3.png": "/AlbertAnthonyArrieta.github.io/static/media/riddlerPic3.fc0f697f25d4bf7cfc81.png",
+    "static/media/wordle1.png": "/AlbertAnthonyArrieta.github.io/static/media/wordle1.c1f48e954cf11d7a697a.png",
     "static/media/wordle2.png": "/AlbertAnthonyArrieta.github.io/static/media/wordle2.d42534b839e43f28647a.png",
-    "static/media/wordle1.png": "/AlbertAnthonyArrieta.github.io/static/media/wordle1.178b6fd0a98f6c4c1dc6.png",
     "static/media/riddlerPic2.png": "/AlbertAnthonyArrieta.github.io/static/media/riddlerPic2.6778fdf3f6cec41f5bc3.png",
     "static/media/wordle3.png": "/AlbertAnthonyArrieta.github.io/static/media/wordle3.37fa2a998b6f628a50f3.png",
     "static/media/spiritPic.png": "/AlbertAnthonyArrieta.github.io/static/media/spiritPic.e8494b83dcb947d9a2fe.png",
@@ -53,12 +56,12 @@
     "static/media/html5.svg": "/AlbertAnthonyArrieta.github.io/static/media/html5.b12781148ff91e07ec729198b113b2ef.svg",
     "static/media/angular.svg": "/AlbertAnthonyArrieta.github.io/static/media/angular.d07edfa961d64f1cf422e8abb3df0859.svg",
     "static/media/framework7.svg": "/AlbertAnthonyArrieta.github.io/static/media/framework7.72fe100848a8931e01d24a930e4f204d.svg",
-    "main.53c5a365.css.map": "/AlbertAnthonyArrieta.github.io/static/css/main.53c5a365.css.map",
-    "main.8f04999b.js.map": "/AlbertAnthonyArrieta.github.io/static/js/main.8f04999b.js.map",
+    "main.295c4238.css.map": "/AlbertAnthonyArrieta.github.io/static/css/main.295c4238.css.map",
+    "main.f185e2d3.js.map": "/AlbertAnthonyArrieta.github.io/static/js/main.f185e2d3.js.map",
     "787.82aac0c9.chunk.js.map": "/AlbertAnthonyArrieta.github.io/static/js/787.82aac0c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53c5a365.css",
-    "static/js/main.8f04999b.js"
+    "static/css/main.295c4238.css",
+    "static/js/main.f185e2d3.js"
   ]
 }
