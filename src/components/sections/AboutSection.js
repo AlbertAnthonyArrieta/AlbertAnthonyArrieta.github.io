@@ -45,7 +45,7 @@ export const AboutSection = () => {
                     <Fade top>
                         <h2 className='text--subheading'>Technologies</h2>
                     </Fade>
-                    <Slide right cascade>
+                    <Slide bottom cascade>
                         <div className='technology--container'>
                             <div className='about--item'>
                                 <h3 className='text--highlight__cyan'>Programming Languages</h3>

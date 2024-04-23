@@ -1,9 +1,11 @@
 .filterBar  {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 10px;
     padding-left: 100px;
     padding-right: 100px;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .filterBar--button {
@@ -47,3 +49,16 @@
     font-size: 16px;
 }
 
+@media screen and (max-width: 600px) {
+    .filterBar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .filterBar {
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .filterBar:hover {
+        transform: translateX(-5px);
+    }
+}

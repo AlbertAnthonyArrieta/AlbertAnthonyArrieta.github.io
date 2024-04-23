@@ -3,6 +3,7 @@ import { ProjectCard } from "../common/ProjectCard";
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import { useState } from "react";
+
 import PortfolioPic from '../../images/portfolioPic.png';
 import PortfolioPic2 from '../../images/beforeaftportfolio-3.jpg';
 import PortfolioPic3 from '../../images/beforeaftportfolio-4.jpg';
@@ -30,11 +31,14 @@ import JerichoPic1 from '../../images/jerichopic1.png';
 import WordlePic1 from '../../images/wordle1.png';
 import WordlePic2 from '../../images/wordle2.png';
 import WordlePic3 from '../../images/wordle3.png';
+import SGPic1 from '../../images/SG1.png';
+import SGPic2 from '../../images/SG2.png';
+import SGPic3 from '../../images/SG3.png';
 
 const projects = [
     {
         name: "Albron DGS Inc Website",
-        type: "Web App",
+        type: "Website",
         description: "A commercial Website created for Design and Drafting company AlbronDGS Inc, built on the React framework.",
         imgs: [AlbronPic1, AlbronPic2, AlbronPic3, AlbronPic4],
         link: 'https://albrondgsinc.com/',
@@ -47,13 +51,41 @@ const projects = [
         description: "A volunteer management system created for the non-profit organization Calgary Animal Rescue Society (CARS).",
         imgs: [CarsPic, CarsPic2, CarsPic3],
         github: 'https://github.com/IvanOkh/Volunteer-Management-System-Frontend',
-        tags: ['AngularJS', 'TypeScript', 'HTML', 'CSS'],
+        tags: ['Angular', 'Bootstrap', 'SpringBoot', 'mySQL'],
         summary: 'A volunteer management system created for the non-profit organization Calgary Animal Rescue Society (CARS). The system aims to provide CARS administrators with the ability to oversee and organize various aspects, including volunteer information, foster information, volunteer applications, foster applications, and event management, with registration options for active volunteers. Initially conceived as a capstone project for SAIT, this initiative has evolved into a comprehensive solution.'
 
     },
     {
+        name: "Spoiler Guard for YouTube",
+        type: "Chrome Extension",
+        description: "A chrome extension that blocks spoilers on YouTube by censoring video thumbnails.",
+        imgs: [SGPic1, SGPic2, SGPic3],
+        tags: ['JavaScript', 'HTML', 'CSS'],
+        summary: 'This is an extension that will keep you safe from all the spoilers on YouTube from your favorite movies, games, tv shows, and more! Add key words to block from your YouTube algorithm and the extension will block any video content that contains one of the words from the list. ',
+        github: 'https://github.com/AlbertAnthonyArrieta/Spoiler-Guard-for-YouTube'
+    },
+    {
+        name: "Wordle",
+        type: "Web App",
+        description: "My own version of the popular game Wordle, built with React.",
+        imgs: [WordlePic1, WordlePic2, WordlePic3],
+        tags: ['React', 'JavaScript', 'HTML', 'CSS'],
+        summary: "This web application is a clone of the popular game Wordle. The game generates a random five-letter word, and the player has six attempts to guess the word. After each guess, the game provides feedback on the correctness of the guess. The player must use this feedback to deduce the correct word. The game ends when the player guesses the word correctly or runs out of attempts. The game is built using React ontop of Vite. This project was a fun challenge to recreate the game and learn more about React and hooks such as useEffect, useContext, and useState. I also used this project to experiemnt with Vite and also netflify for deployment.",
+        github: 'https://github.com/AlbertAnthonyArrieta/WordleClone',
+        link: "https://wurdle-4b514c.netlify.app/",
+    },
+    {
+        name: "Riddler",
+        type: "Mobile App",
+        description: "A small riddle game created with Framework7 for android devices.",
+        imgs: [RiddlerPic, RiddlerPic2, RiddlerPic3],
+        tags: ['Framework7', 'JavaScript', 'HTML', 'CSS'],
+        github: 'https://github.com/AlbertAnthonyArrieta/Riddler-App',
+        summary: "An Android game developed using Framework7, designed to entertain with a collection of challenging riddles. Embark on a journey through 10 levels of mind-bending puzzles, earning points as you successfully unravel each enigma. Accumulate these points to acquire valuable hints, which can be used to tackle upcoming riddles."
+    },
+    {
         name: "Tic Tac Toe AI",
-        type: "Desktop App",
+        type: "Java App",
         description: "A Java application with an unbeatable AI using the MinMax Algorithm.",
         imgs: [TicPic],
         tags: ['Java', 'AI'],
@@ -71,18 +103,8 @@ const projects = [
         link: "https://albertarrieta.dev/ReelWinder/",
     },
     {
-        name: "Wordle",
-        type: "Web App",
-        description: "My own version of the popular game Wordle, built with React.",
-        imgs: [WordlePic1, WordlePic2, WordlePic3],
-        tags: ['React', 'JavaScript', 'HTML', 'CSS'],
-        summary: "This web application is a clone of the popular game Wordle. The game generates a random five-letter word, and the player has six attempts to guess the word. After each guess, the game provides feedback on the correctness of the guess. The player must use this feedback to deduce the correct word. The game ends when the player guesses the word correctly or runs out of attempts. The game is built using React ontop of Vite. This project was a fun challenge to recreate the game and learn more about React and hooks such as useEffect, useContext, and useState. I also used this project to experiemnt with Vite and also netflify for deployment.",
-        github: 'https://github.com/AlbertAnthonyArrieta/WordleClone',
-        link: "https://wurdle-4b514c.netlify.app/",
-    },
-    {
         name: "Image Thresholding",
-        type: "Desktop App",
+        type: "Java App",
         description: "A Java application that processes several image thresholding algorithms for black and white images.",
         imgs: [ThresholdPic, ThresholdPic2],
         tags: ['Java', 'Image Processing'],
@@ -91,7 +113,7 @@ const projects = [
     },
     {
         name: "Jericho Health Website",
-        type: "Web App",
+        type: "Website",
         description: "Website made for Jericho Health Integrated Clinic, built with WordPress and Elementor.",
         imgs: [JerichoPic1],
         tags: ['WordPress', 'JavaScript', 'HTML', 'CSS'],
@@ -109,17 +131,8 @@ const projects = [
         summary: "Explore the infinity stones on this mini website and delve into their significance in the Marvel Cinematic Universe. Gather the stones to uncover their individual powers and roles. After obtaining all the stones, unleash their combined might with a single click to witness the aftermath following Avengers: Infinity War."
     },
     {
-        name: "Riddler",
-        type: "Mobile App",
-        description: "A small riddle game created with Framework7 for android devices.",
-        imgs: [RiddlerPic, RiddlerPic2, RiddlerPic3],
-        tags: ['Framework7', 'JavaScript', 'HTML', 'CSS'],
-        github: 'https://github.com/AlbertAnthonyArrieta/Riddler-App',
-        summary: "An Android game developed using Framework7, designed to entertain with a collection of challenging riddles. Embark on a journey through 10 levels of mind-bending puzzles, earning points as you successfully unravel each enigma. Accumulate these points to acquire valuable hints, which can be used to tackle upcoming riddles."
-    },
-    {
         name: "My Portfolio",
-        type: "Web App",
+        type: "Website",
         description: "This current website portfolio you are on right now! Upgraded using React.",
         imgs: [PortfolioPic, PortfolioPic2, PortfolioPic3],
         tags: ['React', 'JavaScript', 'HTML', 'CSS'],
@@ -136,7 +149,6 @@ const projects = [
     },
 ]
 
-
 export const ProjectsSection = () => {
     const [filter, setFilter] = useState("All");
 
@@ -145,10 +157,14 @@ export const ProjectsSection = () => {
             return true;
         } else if (filter === "Web Apps") {
             return project.type === "Web App";
-        } else if (filter === "Desktop Apps") {
-            return project.type === "Desktop App";
+        } else if (filter === "Websites") {
+            return project.type === "Website";
+        } else if (filter === "Java Apps") {
+            return project.type === "Java App";
         } else if (filter === "Mobile Apps") {
             return project.type === "Mobile App";
+        } else if (filter === "Chrome Extensions") {
+            return project.type === "Chrome Extension";
         } else {
             return true;
         }
@@ -162,10 +178,14 @@ export const ProjectsSection = () => {
                 </Fade>
                 <div className="section--container">
                     <div className="filterBar">
-                        <button className={filter === "All" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("All")}>ALL</button>
-                        <button className={filter === "Web Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Web Apps")}>WEB APPS</button>
-                        <button className={filter === "Desktop Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Desktop Apps")}>DESKTOP APPS</button>
-                        <button className={filter === "Mobile Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Mobile Apps")}>MOBILE APPS</button>
+                        <Slide right cascade>
+                            <button className={filter === "All" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("All")}>ALL</button>
+                            <button className={filter === "Web Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Web Apps")}>WEB APPS</button>
+                            <button className={filter === "Websites" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Websites")}>WEBSITES</button>
+                            <button className={filter === "Java Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Java Apps")}>JAVA APPS</button>
+                            <button className={filter === "Mobile Apps" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Mobile Apps")}>MOBILE APPS</button>
+                            <button className={filter === "Chrome Extensions" ? "filterBar--button__active" : "filterBar--button"} onClick={() => setFilter("Chrome Extensions")}>CHROME EXTENSIONS</button>
+                        </Slide>
                     </div>
                     <div>
                         <div className="project--cards--container">

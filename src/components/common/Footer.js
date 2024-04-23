@@ -14,7 +14,7 @@ export const Footer = () => {
                     <span>|</span>
                 </p>
 
-                <p>ALBERT ARRIETA <span className='color__pink'>©2023</span> All Rights Reserved.</p>
+                <p>ALBERT ARRIETA <span className='color__pink'>©2024</span> All Rights Reserved.</p>
 
                 <p>
                     <a href='https://github.com/AlbertAnthonyArrieta'> GitHub </a>

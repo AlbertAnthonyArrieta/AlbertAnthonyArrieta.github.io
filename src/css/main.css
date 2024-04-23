@@ -51,6 +51,10 @@ Button Grey - #DDDDDD
     color: var(--white);
   }
 
+  a:hover {
+    color: var(--cyan) !important;
+  }
+
   .text__center {
     text-align: center;
   }
