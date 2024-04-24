@@ -120,7 +120,7 @@
 
 
 .modal--icon__grey {
-    fill: var(--neutralGrey);
+    fill: gray;
     width: 30px;
     margin-right: 10px;
 }
