@@ -58,7 +58,7 @@ export const HeroSection = () => {
 
 					if (distance < canvas.width/5) {
 						context.beginPath();
-						context.strokeStyle = 'rgba(255, 255, 255, 0.2)';
+						context.strokeStyle = '#2a804c';
 						context.lineWidth = 1;
 						context.moveTo(this.x, this.y);
 						context.lineTo(particle.x, particle.y);
@@ -71,8 +71,8 @@ export const HeroSection = () => {
 
 		// Create particles
 		function createParticles() {
-			const numParticles = 20;
-			const colors = ['#50C8CF', '#4b4b4b', '#FE206F'];
+			const numParticles = 25;
+			const colors = ['#9d9d9d'];
 
 			for (let i = 0; i < numParticles; i++) {
 				const x = Math.random() * canvas.width;
@@ -114,17 +114,16 @@ export const HeroSection = () => {
 					<Container className='hero__text'>
 						<h1 className='text__big'>Hello!</h1>
 						<h1>
-							My name is
-							<span className='color__white'> Albert Arrieta</span>.<br></br>
+							My name is <span className='name--style'>Albert Arrieta</span><br></br>
 							I am a
 							<span className='color__cyan'> Web Developer </span>
 							who is driven to create
-							<span className='color__pink'> Functional</span>
+							<span className='color__white'> Functional</span>
 							,
-							<span className='color__pink'> Efficient</span>
+							<span className='color__white'> Efficient</span>
 							,
 							and
-							<span className='color__pink'> User-Friendly </span>
+							<span className='color__white'> User-Friendly </span>
 							applications.
 						</h1>
 					</Container>

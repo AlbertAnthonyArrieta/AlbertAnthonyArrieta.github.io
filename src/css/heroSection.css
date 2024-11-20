@@ -64,6 +64,15 @@ canvas {
   font-size: 128px;
 }
 
+.name--style {
+  background-color: var(--cyan);
+  color: var(--darkGrey);
+  font-weight: 500;
+  font-size: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 @media (max-width: 480px) {
   .text__big {
     font-size: 64px;

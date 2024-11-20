@@ -174,7 +174,7 @@ export const ProjectsSection = () => {
         <div id="projects" className="section projects">
             <Container>
                 <Fade top>
-                    <h1 className="section--title">PROJECTS</h1>
+                    <h1 className="section--title"><span className='text--highlight__cyan'>PROJECTS</span></h1>
                 </Fade>
                 <div className="section--container">
                     <div className="filterBar">

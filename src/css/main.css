@@ -12,8 +12,8 @@ Button Grey - #DDDDDD
 :root {
   --black: #121315;
   --bluishBlack: #0d1014;
-  --pink: #FE206F;
-  --cyan: #50C8CF;
+  --pink: #9d9d9d;
+  --cyan: #42f78a;
   --white: #FEFFFE;
   --lightGrey: #DEDEDF;
   --Grey: #4b4b4b;
@@ -87,21 +87,22 @@ Button Grey - #DDDDDD
   }
 
   .text--subheading {
-    border-left: var(--pink) solid 5px;
+    border-left: var(--cyan) solid 5px;
     padding-left: 10px;
   }
 
   .text--highlight__cyan {
     background-color: var(--cyan);
-    color: var(--white);
+    color: var(--darkGrey);
     display: inline-block;
     padding: 5px;
     margin-bottom: 20px;
   }
   .text--highlight__pink {
-    background-color: var(--pink);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
     display: inline-block;
+    border: solid var(--black) 1.5px;
     padding: 5px;
     margin-bottom: 0px;
   }
