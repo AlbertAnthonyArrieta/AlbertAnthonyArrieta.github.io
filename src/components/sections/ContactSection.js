@@ -13,7 +13,7 @@ export const ContactSection = () => {
         <div id="contact" className='section contact'>
             <Container>
                 <Fade top cascade>
-                    <h1>CONTACT ME</h1>
+                    <h1 className='text--highlight__cyan'>CONTACT ME</h1>
                     <div>
                         <p className='contact--subheading'>If you need any further information or want to connect, feel free to reach out by sending me a message! </p>
                     </div>

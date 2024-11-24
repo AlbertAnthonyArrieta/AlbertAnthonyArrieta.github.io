@@ -42,7 +42,7 @@
 
 .contact--btn {
     background-color: var(--darkGrey);
-    fill: var(--pink);
+    fill: var(--cyan);
     width: 70px;
     height: 70px;
     border: solid var(--darkGrey) 3px;
@@ -52,7 +52,7 @@
 
 .contact--btn:hover {
     transform: scale(0.9);
-    border-color: var(--pink);
+    border-color: var(--cyan);
 }
 
 .emailIcon {

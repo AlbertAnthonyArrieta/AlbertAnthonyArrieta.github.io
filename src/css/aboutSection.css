@@ -2,20 +2,16 @@
     margin-top: 500px;
 }
 
+.about--item {
+    width: 400px;
+}
+
 .technology--container {
     padding-top: 50px;
     padding-left: 25px;
     padding-right: 25px;
     display: flex;
-    justify-content: left;
-    flex-direction: column;
-    gap: 50px
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
 }
-
-.technology--tiles {
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-

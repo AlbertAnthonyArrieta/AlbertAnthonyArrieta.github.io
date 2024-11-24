@@ -1,10 +1,10 @@
 import { ReactComponent as PlaceHolder} from '../../icons/code.svg'
 export const TechnologyTile = ({icon, name}) => {
     return (
-        <div className="techTile">
+        <li className="techTile">
             <div className='techTile--icon'>{icon}</div>
-            <p>{name}</p>
-        </div>
+            <p className='techTile--name'>{name}</p>
+        </li>
     )
 }
 

@@ -50,15 +50,15 @@ export const AboutSection = () => {
                             "Hi! I'm Albert, a recent Computer Science graduate with a minor in New Media from the University of Lethbridge. I specialize in web development, leveraging strong problem-solving abilities and a sharp eye for design to build exceptional web applications. I'm also passionate about full-stack development and am committed to delivering high-quality, reliable software solutions. Check out my projects below!"}
                     />
                 </div>
-                <div className='section--container'>
+                <div className='section--container section--title technologies--section'>
                     <Fade top>
-                        <h2 className='text--subheading'>Technologies</h2>
+                        {/* <h2 className='text--highlight__cyan'>Technologies</h2> */}
                     </Fade>
                     <Slide bottom cascade>
                         <div className='technology--container'>
                             <div className='about--item'>
-                                <h3>Programming Languages</h3>
-                                <div className='technology--tiles'>
+                                <h2 className='text--subheading'>Programming Languages</h2>
+                                <ul className='technology--tiles'>
                                     <TechnologyTile icon={<JavaIcon />} name={'Java'} />
                                     <TechnologyTile icon={<CPPIcon />} name={'C++'} />
                                     <TechnologyTile icon={<PythonIcon />} name={'Python'} />
@@ -67,23 +67,22 @@ export const AboutSection = () => {
                                     <TechnologyTile icon={<JsIcon />} name={'JavaScript'} />
                                     <TechnologyTile icon={<SQLIcon />} name={'mySQL'} />
                                     <TechnologyTile icon={<TsIcon />} name={'TypeScript'} />
-                                </div>
-
+                                </ul>
                             </div>
                             <div className='about--item'>
-                                <h3>Frameworks & Libraries</h3>
-                                <div className='technology--tiles'>
+                            <h2 className='text--subheading'>Frameworks & Libraries</h2>
+                                <ul className='technology--tiles'>
                                     <TechnologyTile icon={<ReactIcon />} name={'React'} />
                                     <TechnologyTile icon={<AngularIcon />} name={'Angular'} />
                                     <TechnologyTile icon={<JQueryIcon />} name={'JQuery'} />
                                     <TechnologyTile icon={<Fw7Icon />} name={'Framework7'} />
                                     <TechnologyTile icon={<BSIcon />} name={'Bootstrap'} />
                                     <TechnologyTile icon={<NodeIcon />} name={'Node.js'} />
-                                </div>
+                                </ul>
                             </div>
                             <div className='about--item'>
-                                <h3>Tools</h3>
-                                <div className='technology--tiles'>
+                            <h2 className='text--subheading'>Tools</h2>
+                                <ul className='technology--tiles'>
                                     <TechnologyTile icon={<GitHubIcon />} name={'GitHub'} />
                                     <TechnologyTile icon={<GitLabIcon />} name={'GitLab'} />
                                     <TechnologyTile icon={<BitBucketIcon />} name={'BitBucket'} />
@@ -92,7 +91,7 @@ export const AboutSection = () => {
                                     <TechnologyTile icon={<ViteIcon />} name={'Vite'} />
                                     <TechnologyTile icon={<WordPressIcon />} name={'WordPress'} />
                                     <TechnologyTile icon={<FigmaIcon />} name={'Figma'} />
-                                </div>
+                                </ul>
                             </div>
                         </div>
                     </Slide>

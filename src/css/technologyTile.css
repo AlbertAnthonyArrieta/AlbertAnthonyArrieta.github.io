@@ -1,17 +1,107 @@
-.techTile {
-    box-shadow: 5px 6px 10px -5px var(--lightGrey);
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.technology--container {
     display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
     justify-content: center;
-    align-items:last baseline;
-    gap: 10px;
-    transition: transform 0.1s ease-in-out;
+    margin: 2rem auto;
+    text-align: left;
 }
 
+.about--item {
+    flex: 1 1 100%;
+    max-width: 100%;
+    text-align: left;
+}
+
+.technologies--section {
+    text-align: left;
+}
+
+.technology--tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
 .techTile--icon {
-    width: 40px;
     fill: var(--cyan);
+    width: 50px;
+    transition: opacity 0.04s ease-in-out;
+    position: absolute;
+}
+
+.techTile--name {
+    color: var(--cyan);
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.04s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.techTile {
+    width: 6rem;
+    height: 6.928rem; /* Height for a perfect hexagon */
+    clip-path: polygon(
+        50% 0%, 
+        100% 25%, 
+        100% 75%, 
+        50% 100%, 
+        0% 75%, 
+        0% 25%
+    ); /* Hexagon shape */
+    background: white; /* Inner background color */
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.04s ease-in-out;
+    position: relative;
+}
+
+.techTile::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(
+        50% 0%, 
+        100% 25%, 
+        100% 75%, 
+        50% 100%, 
+        0% 75%, 
+        0% 25%
+    ); /* Hexagon shape */
+    background: black; /* Border color */
+    z-index: -1;
+    transform: scale(1.1); /* Slightly larger hexagon for border */
+}
+
+.techTile:hover {
+    transform: scale(1.1);
+}
+
+.techTile:hover .techTile--icon {
+    opacity: 0;
+}
+
+.techTile:hover .techTile--name {
+    opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .techTile {
+        width: 7rem;
+        height: 8.09rem; /* Adjust for larger screens */
+    }
 }
